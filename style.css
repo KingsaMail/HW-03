@@ -1,0 +1,60 @@
+* {
+    text-decoration: none;
+    font-family: 'Georgia', Courier, monospace;
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu-header {
+    display: flex;
+    list-style-type: none;
+    font-weight: 1000;    
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: 0.1em;
+    margin: auto;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top: solid;
+}
+
+.fromleft {
+    float:left;
+    margin: 0px 10px 0px 0px;
+   }
+
+.befo-head {
+    padding-left: 150px;
+    margin: 0px;
+    
+}
+
+.fromleft_foto {
+    float:left;
+    margin: 0px 10px 0px 0px;
+    width: 100;
+}
